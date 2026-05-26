@@ -3,7 +3,7 @@
   "name": "AI Hub",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
-  "description": "在 Obsidian 中聚合多个 AI 助手，一键切换访问",
+  "description": "Aggregate multiple AI assistants in Obsidian, switch and access with one click.",
   "author": "liwbcraft",
   "authorUrl": "https://liwbcraft.github.io",
   "fundingUrl": {
