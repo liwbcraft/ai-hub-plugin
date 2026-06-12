@@ -12,7 +12,7 @@ const LOCALES = {
         tab_stats_icon_tooltip: (total, popupCount) => `共 ${total} 个模型，其中 ${popupCount} 个需要弹窗打开`,
         popup_placeholder_text: (name) => `${name} 不允许被嵌入\n点击下方按钮在新窗口打开`,
         popup_placeholder_button: (name) => `🔗 打开 ${name}`,
-        settings_title: "AI Hub 设置",
+        settings_title: "AI Hub Manager 设置",
         settings_default_tab: "默认 AI",
         settings_default_tab_desc: "打开插件时默认显示的 AI 助手",
         settings_show_tab_bar: "显示 Tab 栏",
@@ -54,14 +54,14 @@ const LOCALES = {
         btn_refresh_all_title: "刷新全部 AI",
     },
     'en': {
-        view_display_text: "AI Hub",
+        view_display_text: "AI Hub Manager",
         plugin_name: "AI Assistant Hub",
         tab_refresh_current: "Current",
         tab_refresh_all: "All",
         tab_stats_icon_tooltip: (total, popupCount) => `${total} models total, ${popupCount} require popup`,
         popup_placeholder_text: (name) => `${name} cannot be embedded\nClick the button below to open in new window`,
         popup_placeholder_button: (name) => `🔗 Open ${name}`,
-        settings_title: "AI Hub Settings",
+        settings_title: "AI Hub Manager Settings",
         settings_default_tab: "Default AI",
         settings_default_tab_desc: "Default AI assistant when opening the plugin",
         settings_show_tab_bar: "Show Tab Bar",
@@ -890,7 +890,7 @@ class AIHubPlugin extends Plugin {
 
         this.addCommand({
             id: 'open-ai-hub',
-            name: '打开 AI Hub',
+            name: '打开 AI Hub Manager',
             callback: () => {
                 this.activateView();
             }

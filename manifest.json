@@ -1,6 +1,6 @@
 {
   "id": "ai-hub-manager",
-  "name": "AI Hub",
+  "name": "AI Hub Manager",
   "version": "1.0.1",
   "minAppVersion": "0.15.0",
   "description": "Aggregate multiple AI assistants in Obsidian, switch and access with one click.",
